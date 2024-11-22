@@ -7,6 +7,7 @@ import numpy as np
 from model import HS_TasNet  # Assuming HS_TasNet is defined in a file called 'main.py'
 import get_wav_datasets from wav
 
+#training class
 # Custom loss function
 def multi_domain_loss(final_output, target):
     # Since final_output is the combined result, use MSE loss on the output and target

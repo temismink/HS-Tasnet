@@ -2,6 +2,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+#model class
+
 class SpectrogramEncoder(nn.Module):
     def __init__(self, window_size, hop_size):
         super(SpectrogramEncoder, self).__init__()
