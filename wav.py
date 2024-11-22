@@ -12,6 +12,7 @@ from torch import distributed
 import torchaudio as ta
 from torch.nn import functional as F
 
+#Dataset class
 def convert_audio_channels(wav, channels=2):
     """Convert audio to the given number of channels."""
     *shape, src_channels, length = wav.shape
